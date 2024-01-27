@@ -30,11 +30,10 @@ vA <- get_pars$vA
 cov_A <- get_pars$cov_A
 cov_Ai <- get_pars$cov_Ai
 
-## simulate EEG data
+## simulate EEG data (one group)
 simu_out <- gener_EEG(n, J, K, K0, P, Q, m, sigma2e, vA, 
                       cov_A, cov_Ai, Theta, cov_Theta, cov_Theta_i, 
                       rseed=121121)
-
 
 
 
@@ -44,12 +43,19 @@ simu_out <- gener_EEG(n, J, K, K0, P, Q, m, sigma2e, vA,
 R <- 1
 Y <- vector("list", R)
 Y[[1]] <- simu_out$Y_list
+## Y[[2]] <- .... when there is a second group.
 
 trial_id <- vector("list", R)
 trial_id[[1]] <- simu_out$trial_id_list
+## trial_id[[2]] <- .... when there is a second group.
 
 NJKP_effective <- simu_out$NJKP_effective
-nn <- rep(n, R)
+## NJKP_effective <- c(simu_out1$NJKP_effective, simu_out2$NJKP_effective) when there is a second group.
+
+nn <- n
+## nn <- c(n1, n2) when there is a second group.
+
+
 
 ## initialize A (with bias)
 vA_init <- c(1.1, 0, 0, 1.1, -0.5, 0, 0, -0.5)
