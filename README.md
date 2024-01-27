@@ -10,12 +10,12 @@ The folder *"algo_init"* contains functions dedicated to the initialization step
 
 ### algo_mcmc_sign
 The folder *"algo_mcmc_sign"* contains functions used for our proposed MCMC algorithm. 
-* **algo_mcmc_sign/mcmc_one_iter.R** The main .R function for the proposed MCMC algorithm.
-* **algo_mcmc_sign/mcmc_one_iter.R** The .R function for one iteration of the proposed MCMC algorithm.
-* **algo_mcmc_sign/mcmc_A.R** The .R function for the full conditional posteriors of the temporal dynamical matrices in RESSM.
-* **algo_mcmc_sign/mcmc_T.R** The .R function for the full conditional posteriors of the spatial mapping matrices in RESSM.
-* **algo_mcmc_sign/mcmc_M.R** The .R function for the full conditional posteriors of the latent EEG signals in RESSM.
-* **algo_mcmc_sign/mcmc_S.R** The .R function for the full conditional posteriors of the variance components in RESSM.
-* **algo_mcmc_sign/rcnorm.R** The .R function for simulating canonical multivariate Gaussian distributions.
+* **algo_mcmc_sign/mcmc_one_iter.R** Main R function for the proposed MCMC algorithm.
+* **algo_mcmc_sign/mcmc_one_iter.R** R function for one iteration in the proposed MCMC algorithm.
+* **algo_mcmc_sign/mcmc_A.R** R function for the full conditional posteriors of the temporal dynamical matrices.
+* **algo_mcmc_sign/mcmc_T.R** R function for the full conditional posteriors of the spatial mapping matrices.
+* **algo_mcmc_sign/mcmc_M.R** R function for the full conditional posteriors of the latent EEG signals.
+* **algo_mcmc_sign/mcmc_S.R** R function for the full conditional posteriors of the variance components.
+* **algo_mcmc_sign/rcnorm.R** R function for simulating canonical multivariate Gaussian distributions.
 
 
