@@ -105,3 +105,5 @@ out1 <- MCMC_multi_group(M_iters = 1000, burn_in = 500, thin = 5, Y = Y, R = R, 
                          kappa_a = 100, kappa_t = 100)
 
 
+
+## save the MCMC output after running the algorithm (can only save part of the results to save space).
