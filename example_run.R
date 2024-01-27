@@ -52,10 +52,10 @@ trial_id[[1]] <- simu_out$trial_id_list
 ## trial_id[[2]] <- .... when there is a second group.
 
 NJKP_effective <- simu_out$NJKP_effective
-## NJKP_effective <- c(simu_out1$NJKP_effective, simu_out2$NJKP_effective) when there is a second group.
+## NJKP_effective <- c(simu_out1$NJKP_effective, simu_out2$NJKP_effective) when there are 2 groups.
 
 nn <- n
-## nn <- c(n1, n2) when there is a second group.
+## nn <- c(n1, n2) when there are 2 groups.
 
 
 
