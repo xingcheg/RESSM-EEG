@@ -2,6 +2,8 @@ source("algo_init/mcmc_main.R")
 source("gener_EEG_funcs.R")
 get_pars <- readRDS("get_pars_Q2_g1.rds")
 
+###### Note that in this example, there is only one group, analysis on multiple groups is similar.
+
 
 ########## problem size ##########
 ## subject number
