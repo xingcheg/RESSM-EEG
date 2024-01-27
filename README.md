@@ -13,11 +13,11 @@ A simple R demo showing how to simulate EEG signals, and run MCMC algorithm of t
 
 ### data_analysis
 The folder *"data_analysis"* contains files for extracting EEG features (i.e. temporal dynamics and spatial mappings), they also reproduce Figures 2-5 in the paper. 
-* **MCMC_samples.rds** RData for the MCMC outputs (note that only necessary parts for reproducing the results are saved to keep this file less than 25MB, a complete output is expected to be larger than 1GB).
 * **visualize_Ar.R** R file to reproduce Figure 2 (i.e., group-level A).
-* **topo_theta.R** R file to reproduce Figure 3.
-* **directional_connectivity.R** R file to reproduce Figure 4.
+* **topo_theta.R** R file to reproduce Figure 3 (i.e., group-level theta).
+* **directional_connectivity.R** R file to reproduce Figure 4 (i.e., group-level directional connectivity).
 * **visualize_Ari.R** R file to reproduce Figure 5 (i.e., subject- and segment-level A).
+* **MCMC_samples.rds** RData for the MCMC outputs (note that only necessary parts for reproducing the results are saved to keep this file less than 25MB, a complete output is expected to be larger than 1GB).
 
 
 ### algo_init
