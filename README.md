@@ -10,7 +10,7 @@ The folder *"algo_init"* contains functions dedicated to the initialization step
 
 ### algo_mcmc_sign
 The folder *"algo_mcmc_sign"* contains functions used for our proposed MCMC algorithm. 
-* **algo_mcmc_sign/mcmc_one_iter.R** Main R function for the proposed MCMC algorithm.
+* **algo_mcmc_sign/mcmc_main.R** Main R function for the proposed MCMC algorithm.
 * **algo_mcmc_sign/mcmc_one_iter.R** R function for one iteration in the proposed MCMC algorithm.
 * **algo_mcmc_sign/mcmc_A.R** R function for the full conditional posteriors of the temporal dynamical matrices.
 * **algo_mcmc_sign/mcmc_T.R** R function for the full conditional posteriors of the spatial mapping matrices.
