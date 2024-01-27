@@ -4,6 +4,9 @@ R code for the analysis from the paper "A Hierarchical Random Effects State-spac
 
 ## Overview
 
+### gener_EEG_funcs.R
+R function for generating EEG signals for one group (n subjects, J time-segments, P EEG channels, Q EEG latent channels).
+
 ### algo_init
 The folder *"algo_init"* contains functions dedicated to the initialization step of the MCMC algorithm. These functions aim to generate effective initial values for the temporal dynamical and spatial mapping matrices, ensuring a robust starting point for the MCMC iterations.
 
