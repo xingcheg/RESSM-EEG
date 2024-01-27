@@ -19,7 +19,7 @@ K0 <- 30
 P <- nrow(get_pars$theta)
 ## number of latent channels
 Q <- get_pars$Q
-## AR(m) model
+## lag for AR(m) model
 m <- get_pars$m
 ## error (first assume equal variance)
 sigma2e <- 0.16
