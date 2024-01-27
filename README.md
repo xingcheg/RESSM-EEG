@@ -7,8 +7,8 @@ R code for the analysis from the paper "A Hierarchical Random Effects State-spac
 ### gener_EEG_funcs.R
 R function for generating EEG signals for one group (n subjects, J time-segments, P EEG channels, Q EEG latent channels).
 
-### run_one_group.R
-A simple R demo showing how to simulate EEG signals, and use RESSM to extract features from the EEG signals (when there is only one group).
+### example_run.R
+A simple R demo showing how to simulate EEG signals, and use RESSM to extract features from the EEG signals.
 
 ### algo_init
 The folder *"algo_init"* contains functions dedicated to the initialization step of the MCMC algorithm. These functions aim to generate effective initial values for the temporal dynamical and spatial mapping matrices, ensuring a robust starting point for the MCMC iterations.
