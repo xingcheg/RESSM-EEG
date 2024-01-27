@@ -2,7 +2,7 @@
 
 R code for the analysis from the paper "A Hierarchical Random Effects State-space Model for Modeling Brain Activities from Electroencephalogram Data" by Xingche Guo, Bin Yang, Ji Meng Loh, Qinxia Wang, and Yuanjia Wang
 
-<img src="EEG_showcase.png" alt="Model Structure" width="600"/>
+<img src="EEG_showcase.png" alt="Model Structure" width="800"/>
 
 
 ## Overview
